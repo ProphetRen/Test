@@ -10,8 +10,8 @@
   $mail->SetLanguage('ru', 'phpmailer/language/');
   $mail->IsHTML(true);
 
-  $mail->SetForm('master.two228@yandex.ru','User88');
-  $mail->addAddress('master.one228@yandex.ru');
+  $mail->setFrom('master.two228@yandex.ru','User88');
+  $mail->addAddress('master.one228@yandex.ru','user100');
   $mail->Subject = 'Данные о стуле :3';
 
   if(trim(!empty($_POST['name']))){
@@ -27,12 +27,10 @@
     $body.='<p><strong>Название товара:</strong> '.$_POST['thing_call'].'</p>';
   }
 
-  $mail->body =$body;
+  $mail->Body=$body;
 
   if(!$mail->send()){
     $message = 'Ошибка';
-  }else{
-    $message = 'Данные отправлены!';
   }
 
   $response = ['message' =>$message];

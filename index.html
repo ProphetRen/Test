@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <title>Кресло(много кресел)</title>
+</head>
+<body>
+  <div class="container">
+    <div class="chair">
+      <img src="img/1.jpg" alt="Кресло" class="img_chair">
+      <span class="description">Парикмахерское кресло<br>&#171;Норм&#187; гидравлическое</span>
+      <span class="price">9 990 &#8381;</span>
+      <button class="buy_btn" value="i" id="buy_btn_1">Купить</button>
+    </div>
+    
+    <div class="chair">
+      <img src="img/1.jpg" alt="Очень красивое кресло" class="img_chair">
+      <span class="description">Парикмахерское кресло<br>&#171;Норм&#187; гидравлическое</span>
+      <span class="price">9 990 &#8381;</span>
+      <button class="buy_btn" value="i" id="buy_btn_2">Купить</button>
+    </div>
+    
+    <div class="chair">
+      <img src="img/1.jpg" alt="Очень удобное кресло" class="img_chair">
+      <span class="description">Парикмахерское кресло<br>&#171;Норм&#187; гидравлическое</span>
+      <span class="price">9 990 &#8381;</span>
+      <button class="buy_btn" value="i" id="buy_btn_3">Купить</button>
+    </div>
+    
+    <div class="chair">
+      <img src="img/1.jpg" alt="Самое худшее кресло из всех 4" class="img_chair">
+      <span class="description">Парикмахерское кресло<br>&#171;Норм&#187; гидравлическое</span>
+      <span class="price">9 990 &#8381;</span>
+      <button class="buy_btn" value="i" id="buy_btn_4">Купить</button>
+    </div>
+  </div>
+  <div class="modal" id="modal">
+    <form action="#" class="form" id="form">
+      <div class="form_fields">
+        <div class="label">
+          <label for="name" class="name" name="name">Имя:</label>
+          <label for="number" class="number" name="number">Телефон:</label>
+          <label for="email" class="email" name="email">email:</label>
+          <label for="thing_call" class="thing_call" name="thing_call">Название товара:</label>
+        </div>
+        <div class="fields">
+          <input type="text" id="name">
+          <input type="text" id="number">
+          <input type="text" id="email">
+          <input type="text" id="thing_call">
+        </div>
+      </div>
+      <div class="form_buttons">
+        <button class="form_btn" id="form_btn">Отправить</button>
+        <button class="form_btn2" id="form_btn2">Закрыть</button>
+      </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

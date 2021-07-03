@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  z-index: 1;
+  font-family: 'Roboto', sans-serif;
+  margin: 13% 10% 0 10% ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.chair{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.img_chair{
+  width: 164px;
+  height: 220px;
+}
+
+.description{
+  margin-top: 0.4vw;
+  text-align: center;
+  font-size: 1vw;
+}
+
+.price{
+  margin-top: 0.6vw;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2vw;
+}
+
+.buy_btn{
+  width: 164px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 1vw;
+  background-color:mediumvioletred;
+  color:gainsboro;
+}
+
+.buy_btn:hover{
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgb(113, 177, 18);
+}
+
+.modal{
+  border-radius: 20px;
+  top:270px;
+  z-index: 2;
+  display: none;
+  margin:0 35%;
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  background: rgba(81, 81, 81, 0.74);
+  backdrop-filter: blur(28px);
+}
+
+.form{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.form_fields{
+  display: flex;
+  flex-direction: row;
+}
+
+.label{
+  padding-left:10px;
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+}
+
+.fields{
+  padding-right:10px;
+  margin-left: 1vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.label>label{
+  font-size: 25px;
+  margin-top:1vw;
+}
+
+.fields>input{
+  padding-left:10px;
+  width: 300px;
+  height: 20px;
+  font-family:'Roboto', sans-serif;
+  font-size: 22px;
+  outline: none;
+  border-color:gainsboro;
+  border-radius: 20px;
+  margin-top:1.2vw;
+
+}
+
+.form_buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.form_btn{
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 1vw;
+  background-color:rgb(113, 177, 18);
+  width: 200px;
+  height: 20px;
+  margin-top: 1vw;
+  color:white;
+}
+
+.form_btn2{
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 1vw;
+  background-color:mediumvioletred;
+  width: 200px;
+  height: 20px;
+  margin-top: 1vw;
+  margin-left: 1vw;
+  color:white;
+}
+

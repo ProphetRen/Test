@@ -3,13 +3,53 @@
   padding: 0;
 }
 
+/* Контейнер */
+
 .container{
   z-index: 1;
   font-family: 'Roboto', sans-serif;
-  margin: 13% 10% 0 10% ;
+  margin: 2% 20% 0 20% ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Заголовки */
+
+h1{
+  margin-bottom: 30px;
+}
+
+h2{
+  margin-bottom: 30px;
+}
+
+/* Обычный текст */
+
+.main_text{
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.14vw;
+}
+
+/* Прямоугольная картинка */
+
+.rect_img{
+  margin-bottom: 30px;
+}
+
+.rect_img__red{
+  width: 100%;
+  height: 100px;
+}
+
+/* ПЕРВОЕ ЗАДАНИЕ */
+
+.first_question{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .chair{
@@ -53,6 +93,8 @@
   cursor: pointer;
   background-color: rgb(113, 177, 18);
 }
+
+  /* Модальное окно */
 
 .modal{
   border-radius: 20px;
@@ -141,3 +183,34 @@
   color:white;
 }
 
+/* Нумерованный список */
+
+.ol_list{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.14vw;
+  margin: 0  0 10% 5%;
+}
+
+/* Маркированный */
+
+.ul_list{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.14vw;
+  margin: 0  0 10% 5%;
+}
+
+/* Предупреждение */
+
+.warning {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.14vw;
+  margin-bottom: 30px;
+}
+
+/* Важный текст */
+
+.strong_text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5vw;
+  margin-bottom: 20px;
+}

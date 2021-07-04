@@ -30,11 +30,11 @@
     modal.style.display = "flex";
     modal.style.left = 650+'px';
   }
-  let FormData = new FormData(form);
+  let formData = new FormData(form);
   async function FormSend(){
     let response = await fetch('sendmail.php',{
       method:'POST',
-      body:FormData,
+      body:formData,
     });
     modal.style.display = "none";
     

@@ -13,7 +13,7 @@
   form.addEventListener('submit', FormSend);
   buyButton1.onclick = function(){
     modal.style.display = "flex";
-    modal.style.left = -600+'px';
+    modal.style.left = -500+'px';
   }
   
   buyButton2.onclick = function(){
